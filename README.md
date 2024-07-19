@@ -45,3 +45,6 @@ SchnellGPT for Luminator is an AI-powered web application designed to assist in 
     uvicorn main:app --reload
     ```
 
+    ![image](https://github.com/user-attachments/assets/721c68fa-b943-4844-b274-b914c159214d)
+
+
