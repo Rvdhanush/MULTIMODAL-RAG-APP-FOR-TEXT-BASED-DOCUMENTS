@@ -60,11 +60,7 @@ SchnellGPT for Luminator is an AI-powered web application designed to assist in 
 The application will be available at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
 ## Screenshots
-
-
-
-    ![image](https://github.com/user-attachments/assets/721c68fa-b943-4844-b274-b914c159214d)
-
+"C:\Users\velud\OneDrive\Pictures\Screenshot 2024-07-18 152912.png"
 
 
 
