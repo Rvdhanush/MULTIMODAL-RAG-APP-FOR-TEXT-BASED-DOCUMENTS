@@ -61,6 +61,5 @@ The application will be available at [http://127.0.0.1:8000](http://127.0.0.1:80
 
 ## Screenshots
 
-
 https://github.com/Rvdhanush/MULTIMODAL-RAG-APP-FOR-TEXT-BASED-DOCUMENTS/blob/main/Screenshot%202024-07-18%20131323.png
 
