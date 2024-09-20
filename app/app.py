@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI()
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory=os.path.join(os.path.dirname(__file__), "templates"))
 
 # Configure CORS
 app.add_middleware(
