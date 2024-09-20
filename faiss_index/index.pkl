@@ -1,0 +1,442 @@
+€•Ñe      Œ&langchain_community.docstore.in_memory”ŒInMemoryDocstore”“”)”}”Œ_dict”}”(Œ$3fe53203-48af-4980-a998-cf494b00e248”Œlangchain_core.documents.base”ŒDocument”“”)”}”(Œ__dict__”}”(Œid”NŒmetadata”}”(hŒ$2264753f-761c-4839-b7ed-4c19580d3f1d”Œtype”Œtext”Œoriginal_content”ŒäLuminator 3.7.0 - User Manual
+
+Luminator 3.7.0 User Manual
+
+Created By: Banu R. Created on: 02/04/2024 Updated By: Banu R. Updated On: 05/04/2024 Acknowledged by: Kalaivanan S
+
+1
+
+schnell
+
+Luminator 3.7.0 - User Manual
+
+Contents”uŒpage_content”ŒçThe user manual for Luminator 3.7.0 was created by Banu R. on 02/04/2024 and updated by the same person on 05/04/2024. It was acknowledged by Kalaivanan S. The manual includes information on how to use the Luminator 3.7.0 software.”hh	uŒ__fields_set__””(hhŒ__private_attribute_values__”}”ubŒ$b4ac60a3-13fc-4605-b1de-523afbd3ac97”h
+)”}”(h
+}”(hNh}”(hŒ$9dad6bf0-ffa3-498c-a62a-29fb290c10c2”hhhXÑ  Contents Application Scope & Purpose Document Purpose Overview Target Audience Organization Structure Home Screen / Splash Screen Login Page Selection Criteria Dashboard Page Pole Vault App
+
+Installation Process - Lamp Navigation to Device
+
+Installation Process - ILM Maintenance Process - ILM
+
+Installation Process - CCMS / HUB QR Code Scanning Method Device View List Method
+
+Gateway Replacement
+
+Summary
+
+2 2 2 3 3 3 3 3 3 3 5 6 6 8 8 8 9 11 11 11 13 13 14 14 15 15 15 16 17
+
+2
+
+Â§ schnell
+
+Luminator 3.7.0 - User Manual
+
+Application Scope & Purpose
+
+The Luminator app offers a mobile interface for the Schnell Smart Lighting System's on-ï¬eld Fleet, enabling users to manage installation, operation, monitoring, and advanced maintenance of Luminodes and Gateways. With this application, users can install and control ILM, CCMS, GW, Lamp, and Pole functionalities seamlessly.
+
+Document Purpose
+
+This document provides a manual for the application users. It provides instructions for the app users to Install, Remove, Replace and Operate the devices on field.
+
+Overview
+
+Introducing Luminator 3.7.0, an enhanced version surpassing the Luminator 3.x app. This update features a signiï¬cantly simpliï¬ed User Interface (UI) and streamlined operations. Data collection requirements have been drastically reduced, with device identiï¬cation now facilitated through QR code scanning within the app, eliminating the need for manual entry of device IDs. Device locations are accurately captured within a < 10m radius. Additionally, validations such as Ward Geo-fencing and Firmware compatibility have been incorporated.
+
+The Luminator app simpliï¬es the installation and maintenance of various assets and devices within the schnellIOT system. It also eï¬ƒciently manages tickets and issues associated with these assets, providing a seamless user experience.
+
+Target Audience All Smart Light Systems hosted on the schnelliot.in (Thingsboard) platform can use this application to ease their process for Installation and Maintenance.
+
+All the field personnels doing Installation can use this manual to install and Maintaining their Devices for their day-to-day operations. Future scope includes Ticketing features.
+
+3
+
+Â§ schnell
+
+Luminator 3.7.0 - User Manual”uhXœ  The Luminator 3.7.0 app is designed to provide a mobile interface for managing the installation, operation, monitoring, and maintenance of Luminodes and Gateways in the Schnell Smart Lighting System's on-field Fleet. The user manual provides instructions for installing, removing, replacing, and operating devices in the field. The app features a simplified user interface, QR code scanning for device identification, and efficient management of tickets and issues. The target audience includes all Smart Light Systems hosted on the schnelliot.in platform, with field personnel using the manual for day-to-day operations. Future updates may include ticketing features.”hh	uh”(hhh}”ubŒ$04b4b29b-e2aa-4a8e-8a1a-32b9441cb8c9”h
+)”}”(h
+}”(hNh}”(hŒ$869051cc-aee4-4946-ab3c-4cf48c158d01”hhhX  Organization Structure
+
+Authorization Project Hierarchy / Context Selection No Sn Main Dashboard with Functionality Icons t J y v y Pole Vault Lamp Installation QR Scan Map Search Installed Histroy Installed Histroy Listing assets CCMS, Search of POLE, info with QR Scan info with QR Scan Lightpoints and HUB CCMS, HUB, ILM, Lamp Yv Maintenance Module No f v | CCMS / HUB Maintance Complete Process â€” Installation Process Pole Maintanence Page Light Maintanence Page Bea Maintance Process Complete Process Remove ILM <â€”____|____Â» Replace ILM a a y Complete Process in Dashboard Page
+
+4
+
+Luminator 3.7.0 - User Manual
+
+Home Screen / Splash Screen
+
+Login Page
+
+Enter the valid credentials against the Luminator application and click the Login button.
+
+Selection Criteria
+
+Successful logins lead to authenticated Project list pages. user able to the particular project/Region if eligible for multiple projects / select regions..
+
+Dashboard Page
+
+In the Home page now grids are available for POLE and LAMP Asset installation. Menus and icons available at the homescreen are below:
+
+Top Bar:  Menu Bar  Search icon Tickets icon Home Page  Selected Project /region  Zone list  Ward list  Pole Installation Grid 
+
+=
+
+&
+
+=
+
+All wards
+
+â‚¬. 2) Luminator = c a â€”)
+
+See . oa Sy PTI Â© mercer Pen ean Â© rvyeanya”uhXŒ  The text describes the organization structure and functionality of the Luminator 3.7.0 application. It includes information on the authorization project hierarchy, selection criteria, and dashboard page. Users need to enter valid credentials to log in and access project lists. The dashboard page displays grids for pole and lamp asset installation, with menus and icons available for navigation.”hh	uh”(hhh}”ubŒ$9a44691f-c6f6-43ff-bc81-00445a65e2b8”h
+)”}”(h
+}”(hNh}”(hŒ$43c38252-6c4d-470d-801b-76652b077ff7”hhhXú  _ = Home Page Q y= (R24) (RBI) vow Pole installation Lamp installation
+
+5
+
+schnell
+
+Luminator 3.7.0 - User Manual
+
+Lamp Installation Grid Bottom Bar Home icon Map Icon QR scan button
+
+|!
+
+ft â€˜=
+
+**
+
+&
+
+Pole Installation
+
+Before proceeding with Pole Installation, ensure the following prerequisites are met:
+
+Install the Pole Vault app from the Play Store. â— Properly select or set the project context (Region >>>
+
+Zone >>> Ward).
+
+Clicking on the Pole Installation icon offers two options:
+
+& â€œ> Polevault
+
+â— If accessing the Pole Vault app for the ï¬rst time, it will lead to the installation of the app.
+
+â— For users with the app already installed, it provides the option to install the POLE asset within the selected project context.
+
+Upon launching the Pole Vault app, users are presented with an information page showing the count of installed Poles within the selected Ward, along with access to installation history for the past 5 days. To begin the installation process, a QR scan icon is available.”uhXÌ  The text provides instructions for installing poles using the Pole Vault app. Before proceeding with installation, users must have the app installed and the project context set. The app offers two options for installation, one for first-time users and another for users with the app already installed. Upon launching the app, users can view the number of installed poles and access installation history. The installation process begins with scanning a QR code.”hh	uh”(hhh}”ubŒ$c8780fdb-13b7-4a24-a8b0-2e653ef955f0”h
+)”}”(h
+}”(hNh}”(hŒ$2623a3bc-409b-4f12-ad77-af3db6f94e5a”hhhXÅ  Ce Sor Poteau o scan Pole No: B= occ sstory cases bass , Photo Capture page to take an
+
+Installation Process - POLE
+
+Once the QR code corresponding to the Pole number is scanned, it undergoes validation against the Pole numbering format to ensure accuracy and consistency. Users are then prompted to provide necessary information about the Pole, with the app automatically fetching the location of the installed pole..
+
+After supplying all required details, users proceed to the Photo Capture page to take an image of the installed Pole. Upon capturing the photo, the installation process is considered complete.
+
+6
+
+G schnell
+
+Luminator 3.7.0 - User Manual
+
+Take a picture Display the picture 28 pir Pole No: TEss414 o
+
+Take a picture pir
+
+Display the picture Pole No: TEss414 o
+
+28
+
+Installation Process - Lamp
+
+ocr aE â‚¬ LAMP INSTALLATION o Lamp Installation History fr this user eb eet â€”â€” : ai-08-2028 6 1 26-08-2023, 4 3 25-08-2023 Scan a Pole cy < POLE MAINTENANCE vo, Pole #TNODATO Tarn Nad
+
+Upon selecting "Lamp Grid," users will be directed to a screen that displays the count of installed lamps within the selected ward, along with their Lamp installation history. Additionally, a Scan QR icon is provided.”uhXj  The text describes the installation process for poles and lamps using a QR code system. Users scan the QR code corresponding to the pole number, provide necessary information, and capture a photo of the installed pole to complete the process. For lamp installation, users can view the count of installed lamps and their installation history in the selected ward.”hh	uh”(hhh}”ubŒ$e1d9bdbc-3931-4273-bf1a-0affe957802c”h
+)”}”(h
+}”(hNh}”(hŒ$1bfaa097-e01a-43a3-9bd7-db2202b6482f”hhhX”  < POLE MAINTENANCE vo, Pole #TNODATO Saravanampatt,Colmbator, Tarn Nad ~~ ecm â€” Paeeeet Mieae page. Once the Lamp's Lamp type, Wattage,
+
+To initiate the Lamp Installation process, users must scan the QR code associated with the Lamp's Pole. If the scanned Pole number indicates that the Pole is in an "Installed" state, users will receive information about both the old and recommended lamps, Pole Location details, and an "Add Lamp" button based on the number of arms on the Pole.
+
+Clicking the "Add Lamp" button will navigate users to a QR scan page. Once the Lamp's QR code is scanned, the app will present details such as QR code, Lamp type, Wattage, and more. Users can proceed by capturing a photo.
+
+7
+
+schnell
+
+Luminator 3.7.0 - User Manual
+
+Take a picture < LAMP INSTALLATION _=D> 12345679 Havells, 40 W saravanampatti, Coimbatore, Tamil Nadu, India, 641006 Recommended LED, 20 W reo Re te kel <M anor) Sj
+
+Take a picture Sj
+
+< LAMP INSTALLATION _=D> 12345679 Havells, 40 W saravanampatti, Coimbatore, Tamil Nadu, India, 641006 Recommended LED, 20 W reo Re te kel <M anor) Successful completion of the Navigation to e QR Code Scanning
+
+Successful completion of the photo capture marks the conclusion of the installation process.
+
+Navigation to Device
+
+QR Code Scanning â— Search Method
+
+QR Code Scanning Method
+
+Oo
+
+Search Device zoa Q
+
+Users can select their respective Region, zone, and ward from the default options displayed on the Dashboard screen. When they click the scan QR icon, it redirects them to the Scan QR code page for QR scanning. Depending on the state and condition of the scanned device, the application will either navigate to the Installation Process or the Maintenance Process.
+
+Search Device zoa Q ... zea | zee20 giwTel ely yell ele!
+
+Device List / Search View Method
+
+Click on the Search icon will lead to the Search device page with the Text box to enter the search key values
+
+8
+
+Luminator 3.7.0 - User Manual
+
+Enter the device name, then click on the search button to retrieve a list of all related devices.
+
+From the search results, select the device which has to be installed.And the same above mentioned scenario is followed for the selected ILM device.”uhXK  The text provides instructions for the Lamp Installation process using a QR code associated with the Lamp's Pole. Users must scan the QR code to receive information about old and recommended lamps, Pole Location details, and can add a lamp based on the number of arms on the Pole. After scanning the Lamp's QR code and capturing a photo, the installation process is concluded. Users can also search for devices by selecting their Region, zone, and ward, which will redirect them to either the Installation Process or the Maintenance Process, depending on the state of the scanned device.”hh	uh”(hhh}”ubŒ$bd5e5108-8921-4287-99a2-fea87a7e3703”h
+)”}”(h
+}”(hNh}”(hŒ$fc34aa0d-c816-41d3-bd16-60e1097ae2c2”hhhXÛ	  Installation Process - ILM
+
+According to the Scanned or Searched ILM device Condition and State (condition: New / Service state: Installable ), the application will navigate to the LAMP Scanning Page.
+
+It will detect the device state. According to the device state, the installation process is allowed with or without an alert. Even if the device is not in Installable state , (Testable, Test In progress, Tested OK) app will show a â€œConfirmation Alert pop-upâ€ to the user and the flow will be according to the user selection.
+
+< 7 = SS Search device Q = a = owen = mosee Â» a
+
+Â» a
+
+Not in an Installable state (Installed state ie Installed in different Region) â€” app will show a â€œConfirmation Alert Pop-UPâ€ with the Device Installation information (Ward details) to the user with the following options:
+
+Proceed to Install â€”-- Lamp QR Scan page â— Skip and Scan another device â€” Home page
+
+Not in an Installable state (Installed state ie Installed in different ward with Same Region) app will show a â€œConfirmation Alert Pop-UPâ€ with the Device Installation information (Ward details) to the user with the following options:
+
+Proceed to Install â€”- Lamp QR Scan page(same as Installation Flow) â— Skip and Scan another device â€”- Home Page â— Take to Maintenance â€”--- Maintenance Page
+
+Scanned Device is in Scrapped condition â€” > Leads to show an Alert msg with OK button (no further action on the device is allowed)
+
+9
+
+G schnell
+
+Luminator 3.7.0 - User Manual
+
+If the user chooses to scan a lamp QR button, the lamp QR page will be shown. Alternatively, if the user selects to install without a lamp, the camera screen will be displayed.
+
+< = Take a picture Display the picture Device successfully installed.!
+
+< = Take a picture
+
+Display the picture
+
+Device successfully installed.!
+
+Once the user captures an image and clicks on the "Complete" button, a popup indicating successful device installation will be displayed.
+
+Maintenance Process - ILM & Lamp
+
+Maintenance module has following major functionalities
+
+Removing an ILM â— Removing a Lamp â— Replace ILM â— Replace Lamp â— Replace Lamp and ILM
+
+ce Pee â‚¬ LIGHT MAINTENANCE cE T Teoos44 â€˜Tambaram > TBM-5 > TBM-5-69) Madambakkam,chen naitamil Nadu,india,600126 Last Comm at 2024-01-06 10:21:43 =) (2024-03-05 035710 HA-0120-01-15-2023-1 (0043087 10-120 w on) (2024-03-05 036730
+
+Maintenance page is reachable via QR Scan method or Device or asset search method.
+
+Replace @ = zci7g0
+
+10
+
+G schnell
+
+Luminator 3.7.0 - User Manual”uhXµ  The text describes the installation process for ILM devices, including the detection of device state and the options available to the user based on the device's condition. It also outlines the steps for scanning a lamp QR code and the process for installing devices without a lamp. Additionally, the text briefly mentions the maintenance process for ILM and lamp devices, including functionalities such as removing and replacing devices.”hh	uh”(hhh}”ubŒ$2cccfd0a-ef7c-431e-9328-1e8d9f5c3ceb”h
+)”}”(h
+}”(hNh}”(hŒ$b3a06323-057a-459e-a003-1037fe765773”hhhX  Removing ILM with Shorting Cap
+
+Step 1: Scan the QR code or use the search icon to fetch Device Details and proceed to the maintenance page.
+
+Prerequisites: Ensure user login to the app and select the appropriate Project context.
+
+the same ward, the ILM device in a different ward, popup.
+
+Step 2:
+
+the ILM When scanning an Installed state ILM Device within the same ward, maintenance page will be displayed. However, scanning a device in a different ward, region, or in a scrap condition will trigger a respective warning popup.
+
+Step 3:
+
+Successful device scan leads to the Maintenance Module Page, displaying options to Replace with Shorting CAP and ILM buttons.
+
+Step 4:
+
+Click the Shorting Cap icon to open the mobile camera screen. Capture a photo of the Cap replaced with the Selected ILM Device.
+
+Step 5:
+
+After successfully capturing the photo/image, the screen displays the picture along with the following buttons:
+
+Retake: Opens the camera for another photo. â— Complete: Proceeds to the Device Removal page,
+
+displaying a "Device Successfully Removed" Pop Up message.
+
+< Display the picture
+
+11
+
+G schnell
+
+Luminator 3.7.0 - User Manual
+
+Step 2: When the user scans an Installed state ILM Device in the same ward, the ILM maintenance page will be displayed. However, if the user scans a device in a different ward, region, or in a scrap condition, a respective warning popup will appear.
+
+Step 3: Device scanned successfully leads to the Maintenance Module Page where it shows Replace with Shorting CAP and ILM buttons.
+
+Step 4: Once the Shorting Cap icon is clicked, the mobile camera screen is opened. Select the capture Icon to capture a photo of the Cap which is replaced with the Selected ILM Device.
+
+Step 5: Once the photo / image is taken successfully, the screen will display the picture with the following buttons.
+
+Retake â€“ Retake will open the camera and will take the photo again â— Complete â€“ Complete button leads to the Device Removal page.. Complete button leads
+
+to the â€œDevice Successfully Removedâ€ Pop Up message,”uhX<  The text provides a step-by-step guide on how to remove an ILM with a shorting cap. It includes instructions on scanning the device, replacing it with a shorting cap, and capturing a photo of the replacement. It also mentions the warning popups that may appear when scanning devices in different wards or conditions.”hh	uh”(hhh}”ubŒ$4448a2c9-8906-4944-a4b8-41bf0cb6ac45”h
+)”}”(h
+}”(hNh}”(hŒ$69e4b39f-61b4-403c-909d-6e0e94f35ebc”hhhXf	  Removing Lamp
+
+12
+
+Ã© 2Â») schnell
+
+Luminator 3.7.0 - User Manual
+
+G schnell
+
+Replace the Device
+
+QR Code Scanning Method
+
+Step 1: Users are able to select the respective Region, zone, and ward default displayed on the Dashboard screen. Click the Scan QR icon, then the Scan QR code page is displayed for scanning the QR.
+
+default then the
+
+Step 2: When the user scans an Installed state ILM Device in the same ward, the ILM maintenance page will be displayed. However, if the user scans a device in a different ward, region, or in a scrap condition, a respective warning popup will appear..
+
+Step 3: Device scanned successfully leads to the Maintenance Page as shown. Device details are shown in the page.
+
+Step 4: Click the Replace with ILM button the Scan QR page should be opened.If scan a valid ILM device QR with State : NEW, SERVICE Condition : INSTALLABLE the page directly navigates to the Camera page. Otherwise the Confirmation Alert message will be displayed.
+
+~ a = Â© sanity test ae eee + 23d89260-b800-Ned- 157. >Â» 8 5 | SCHOO1 Replace With Ee) CmÂ¥)
+
++ 23d89260-b800-Ned- 157. 8 SCHOO1 Replace With Ee) CmÂ¥) a a ne) a? Cs)
+
+Step 5: Then take a Photo and submit it by clicking on Tick Icon. Step 6: Once the photo / image is uploaded successfully, then click on the â€œCompleteâ€ button to complete the process.
+
+13
+
+Luminator 3.7.0 - User Manual
+
+If all the processes are successfully completed, then the user will get a pop message as â€œ[POPUP] <DEV_1> was replaced with <DEV_2> successfully!â€. Device relationship with Ward will be swapped old to new ILM device.
+
+Installation Process - CCMS / HUB
+
+QR Code Scanning Method
+
+Step 1:
+
+Scan the QR code to fetch the device details. Users are able to select the respective region, zone, and ward default displayed on the Dashboard screen. Once the below then the Scan QR Code page is marked icon is clicked, displayed for scanning the QR.
+
+If relation device,â€Device not despatched properlyâ€popup will be shown to the mobile application.
+
+Step 2:If User selects the installable state of CCMS/HUB with gateway devices,the Camera screen will be displayed
+
+Step 3:Upon selecting the COMPLETE icon, the image is captured, and the successful installation of the device is displayed.
+
+When a user scans an individual gateway device in the Installable state, a message indicating that the device has not been dispatched correctly is shown.”uhX   The text provides instructions on how to replace a device using the QR code scanning method in the Luminator 3.7.0 user manual. Users can select the region, zone, and ward on the dashboard screen, scan the QR code of the device to be replaced, and follow the steps to complete the replacement process. If the replacement is successful, a pop-up message will confirm the successful replacement. The text also includes information on the installation process for CCMS/HUB devices using the QR code scanning method.”hh	uh”(hhh}”ubŒ$55278c80-9708-4bd6-9b16-bc1248649bdc”h
+)”}”(h
+}”(hNh}”(hŒ$0dfe96b7-2097-4d4b-a059-01be53fe280b”hhhX?	  Device View List Method
+
+Step 1:
+
+@ Device Replaced successfully
+
+G schnell
+
+Device successfully installed.! a .
+
+14 
+
+14
+
+Luminator 3.7.0 - User Manual
+
+Ã© ) schnell
+
+Click on the Search icon will lead to the Search device page with the Text box to enter the search key values
+
+Step 2: Enter the device name, then click on the search button to retrieve a list of all related devices.
+
+From the search results, select the device which has to be installed. And the same above mentioned scenario is followed for the selected ILM device.
+
+Then the same Step 3 and Step 4 of the QR Code Scanning process is to be performed to complete the Installation.
+
+Gateway Replacement
+
+QR Code Scanning Method How new panel needs to be installed?
+
+Step 1:
+
+Scan the QR code to fetch the device details.
+
+Users are able to select the respective region, zone, and ward default displayed on the Dashboard screen. Once the below marked icon is clicked, then the Scan QR Code page is displayed for scanning the QR.
+
+ward below is
+
+Step 2: When the user selects the "Scan QR" button and scans an installed CCMS/HUB gateway device, the Gateway Maintenance page is displayed.
+
+#AP860 Panel uID: ss14a60v46677 INSTALLED
+
+15
+
+Luminator 3.7.0 - User Manual
+
+Step3: Replace Gateway The Device page is displayed when the user selects the Replace Gateway button. After scanning a valid gateway QR, the Capture Image page should be displayed.
+
+Step 4: If the user captures the image and then selects the "Complete" button, a popup message saying "Gateway Replaced Successfully" is shown.
+
+Device View List Method
+
+Step 1: Click on the Search icon will lead to the Search device page with the Text box to enter the search key values
+
+Step 2: Enter the device name, then click on the search button to retrieve a list of all related devices.
+
+From the search results, select the device which has to be installed.And the same scenario is followed for the selected ILM device.
+
+Then the same Step 3 and Step 4 of the QR Code Scanning process is to be performed to complete the Installation.
+
+- â‚¬ Search Device Zaa Q No results found Â° Sosren Device searen coves Q = ~ = eB ites <q esos GB Sone ow es 8 ae aqiwileiritiylulijoj[p als|d[ftia]h]i]k iz
+
+Â° ~~ Sosren Device searen coves Q = ~ = eB ites <q esos GB Sone , ow es 8 ae aqiwileiritiylulijoj[p als|d[ftia]h]i]k iz mez) x ic vi bin\m i 7123, Â©”uhX  The text describes the Device View List Method for replacing and installing devices. It includes steps for searching for devices, selecting them, and completing the installation process using QR code scanning. The process involves searching for related devices, selecting the device to be installed, and following steps 3 and 4 of the QR code scanning process to complete the installation. It also includes steps for replacing a gateway device, scanning QR codes, and capturing images to ensure successful replacement.”hh	uh”(hhh}”ubŒ$f487a7d3-2b5b-44da-b146-89630da9d93b”h
+)”}”(h
+}”(hNh}”(hŒ$059bc27b-3cdc-4673-85d2-af0a3e23c6fb”hhhŒøSummary
+
+This manual describes the installation and Maintenance of the Latest Luminator Phase III application. It is useful for all smart light projectsâ€™ field persons to Install and Maintaining the device in an easy manner.
+
+16
+
+â‚¬ 2Â») schnell”uhŒ¾This manual provides guidance on installing and maintaining the Latest Luminator Phase III application for smart light projects, making it easier for field personnel to work with the device.”hh	uh”(hhh}”ubŒ$fe054eea-3e1c-46c8-9b48-edd88f450363”h
+)”}”(h
+}”(hNh}”(hh|hŒtable”hX  Installation Process - POLE QR Code Scanning Method Device List / Search View Method Removing ILM Shorting Cap QR Code Scanning Method Replace the Device QR Code Scanning Method QR Code Scanning Method How new panel needs to be installed? Device View List Method”uhX   The table outlines the installation process for a device using QR code scanning methods and a device list/search view method. It includes steps such as scanning the QR code to remove the ILM shorting cap, replacing the device, and installing a new panel using the device view list method.”hh	uh”(hhh}”ubŒ$92558e0e-cbb6-48a0-8e1c-ba5e124e7670”h
+)”}”(h
+}”(hNh}”(hh|hh†hŒ-See . oa Sy PTI Â© mercer Pen ean Â© rvyeanya”uhX  The table likely shows a comparison of different companies or organizations, possibly in terms of their financial performance, market share, or other relevant metrics. It could also be showing data related to employee satisfaction, benefits, or other factors.”hh	uh”(hhh}”ubŒ$0a8b94b5-3e10-47c4-bb20-c8c540997ab0”h
+)”}”(h
+}”(hNh}”(hh|hh†hŒ8Ce Sor Poteau o scan Pole No: B= occ sstory cases bass ,”uhŒ‘The table contains information about various poles, including their location, number, occupancy, height, and any relevant information about them.”hh	uh”(hhh}”ubŒ$dd811d1b-71a6-470a-a665-3ebbf640a359”h
+)”}”(h
+}”(hNh}”(hh|hh†hŒ9eb eet â€”â€” : ai-08-2028 6 1 26-08-2023, 4 3 25-08-2023”uhŒ±The table shows the number of employees (e) and interns (i) present on two different dates: August 26, 2023 (6 employees, 1 intern) and August 25, 2023 (4 employees, 3 interns).”hh	uh”(hhh}”ubusb}”(K h KhKh'Kh1Kh;KhEKhOK hYKhcK	hmK
+hwK
+hKh‹K
+h”Khu†”.
