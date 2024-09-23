@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  lumebot:
+    build: .
+    image: lumebot
+    container_name: lumebot_container
+    ports:
+      - "9000:9000"  # Maps port 9000 on your host to port 9000 in the container
+    restart: unless-stopped
+
